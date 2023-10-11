@@ -4,7 +4,7 @@ export const FinishedContainer = styled.div`
   flex: 1;
   display: flex;
   flex-flow: row wrap;
-  margin-top: 5rem;
+  margin-top: 7rem;
   padding: 1rem 0 0.5rem;
 `
 

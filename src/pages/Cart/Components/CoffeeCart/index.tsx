@@ -45,7 +45,7 @@ export function CoffeeCart({ coffeeParam }: CoffeeCartProps) {
     <CoffeeElementCart>
       <img src={COFFEE_IMAGES[coffeeParam.imagem.coffeeImage]} alt="" />
       <div>
-        <h1>Expresso Tradicional</h1>
+        <h1>{coffeeParam.nome}</h1>
         <footer>
           <NumberInput>
             <ButtonPlusMinus onClick={handleMinus}>

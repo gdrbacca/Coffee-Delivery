@@ -14,7 +14,7 @@ export const PresentationContainer = styled.div`
   flex: 1;
   display: flex;
   flex-flow: row wrap;
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;
   padding: 1rem 0 0.5rem;
 `

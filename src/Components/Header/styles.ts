@@ -4,7 +4,16 @@ export const HeaderContainer = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: ${(props) => props.theme.background};
 
+  width: 75%;
+  height: 6.5rem;
+  top: 0;
+  left: 0;
+  margin-left: 10rem;
+  position: fixed;
+
+  padding: 1rem;
   nav {
     display: flex;
     gap: 1rem;
